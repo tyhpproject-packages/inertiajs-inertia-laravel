@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/inertiajs-inertia-laravel",
+    "description": "Tyhp type definitions for inertiajs/inertia-laravel 3.3.4.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.3.4",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/inertiajs-inertia-laravel-impl": "~3.3.4.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/inertiajs-inertia-laravel-impl"
+        }
+    }
+}
